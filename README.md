@@ -43,5 +43,6 @@ In a loop while time is less than the distance/abs(velocity) it does the followi
 6. Sixth, it computes the velocity of each joint using the function **ComputingVelocities** and it uses the function **PlottingVelocities** for plotting.
 7. Finally, it computes the torque of the joint J1 using the function **ComputingTorqueJ1** and uses the function **PlottingTorque** for plotting.
 
+## RESULT
 
 ![picture](Img_2.png)
