@@ -45,8 +45,8 @@ if (theta1 > %pi) then
 end
 theta3 = gamma_ - theta1 -theta2
 
-//Checking if the inputs are inside the workspae of the robot
 [x_c,y_c,gamma_c]=jointPosition2EndEffectPose(theta1,theta2,theta3,L1,L2,g1,g2,g3)
+//Checking if the inputs are inside the workspace of the robot
 h=(x_c)^2 +(y_c)^2
 
 if h < (L1+L2+g1+g3) then 
