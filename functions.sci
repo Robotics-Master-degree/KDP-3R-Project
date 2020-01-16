@@ -130,7 +130,7 @@ function[t_,thetad_1,thetad_2,thetad_3] = PlottingVelocities(thetap,t,t_,thetad_
     plot(t_,thetad_1,'b')
     plot(t_,thetad_2,'g')
     plot(t_,thetad_3,'r')
-    hl=legend(['theta1_p';'theta2_p';'theta3_p'],"in_lower_right");
+    hl=legend(['w1';'w2';'w3'],"in_lower_right");
 endfunction
 
 function[T] = ComputingTorqueJ1(theta1,theta2,theta3,L1,L2,g1,g3,m_L1,m_L2,m_EF,n_prod,m_p,g,T)

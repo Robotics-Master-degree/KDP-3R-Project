@@ -55,11 +55,11 @@ while t<=dist/abs(v)
     printf(' P %f:',P(2))
     
     //2.3 Compute the jacobian at this configuration //2.4 Obtain joint speeds by multiplying the jacobian with the required end-effector twist(joint speeds = J·T)
-    [thetap] = ComputingVelocities(theta1,theta2,L1,L2,v)
+    [omega] = ComputingVelocities(theta1,theta2,L1,L2,v)
 
     //2 .Plotting joint speeds versus time
     xsetech([0,0.50,1,0.3])
-    [t_,thetad_1,thetad_2,thetad_3] = PlottingVelocities(thetap,t,t_,thetad_1,thetad_2,thetad_3)
+    [t_,thetad_1,thetad_2,thetad_3] = PlottingVelocities(omega,t,t_,thetad_1,thetad_2,thetad_3)
 
     //3. Computing Torque in joint J1
     xsetech([0,0.75,1,0.25])
