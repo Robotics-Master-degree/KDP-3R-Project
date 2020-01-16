@@ -45,4 +45,4 @@ In a loop while time is less than the distance/abs(velocity) it does the followi
 
 ## RESULT
 
-![picture](Img_2.png)
+![picture](Img2.png)
